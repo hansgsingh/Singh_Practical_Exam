@@ -93,16 +93,15 @@ public class Main2Activity extends AppCompatActivity {
             }
         }
     }
-    public void buttonPrevious(View view)
+    public void back(View v)
     {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
     }
-    public void buttonSend(View view)
+    public void send(View v)
     {
         Toast.makeText(this, "Registration Sent... " , Toast.LENGTH_LONG).show();
     }
-
 
 
 }
